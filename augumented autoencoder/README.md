@@ -25,7 +25,10 @@ AAEの学習方法です．
 ## データベース作成
 学習済みのAAEを用いたデータベースの作成方法です．
 各姿勢の潜在変数は--nameで指定したフォルダに出力されます．
+
 `$ python3 pose_encoder2.py --load ./AAEt/ckpt/aae_0000.mdl --pose ./datasets/AAE_pose/０００/ --name data_base`
+
+### 引数のパラメータ
 --name ： データベースの保管場所
 --load ： 学習済みAAEの重み
 --pose ： データベースとなるデータのディレクトリ
@@ -35,6 +38,8 @@ AAEの学習方法です．
 潜在変数は--nameで指定したフォルダに出力されます．
 
 `$　python3 suitei_encoder.py --load ./AAEt_700/ckpt/aae_0000000265.mdl --pose ./datasets/hyouka2/ --name  Z`
+
+### 引数のパラメータ
 --name ： 潜在変数の保管場所
 --load ： 学習済みAAEの重み
 --pose ： 評価データのディレクトリ
