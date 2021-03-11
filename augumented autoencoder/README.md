@@ -29,8 +29,10 @@ AAEの学習方法です．
 `$ python3 pose_encoder2.py --load ./AAEt/ckpt/aae_0000.mdl --pose ./datasets/AAE_pose/０００/ --name data_base`
 
 ### 引数のパラメータ
---name ： 出力結果のディレクトリ  
+--name ： 出力結果のディレクトリ 
+
 --load ： 学習済みAAEの重み 
+
 --pose ： データベースとなるデータのディレクトリ  
 
 ## 対象画像の潜在変数の取得
@@ -40,6 +42,9 @@ AAEの学習方法です．
 `$　python3 suitei_encoder.py --load ./AAEt_700/ckpt/aae_0000000265.mdl --pose ./datasets/hyouka2/ --name  Z`
 
 ### 引数のパラメータ
+
 --name ： 潜在変数の保管場所 
+
 --load ： 学習済みAAEの重み 
+
 --pose ： 評価データのディレクトリ 
