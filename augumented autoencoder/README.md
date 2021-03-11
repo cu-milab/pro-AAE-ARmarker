@@ -29,6 +29,9 @@ AAEの学習方法です．
 `$ python3 pose_encoder2.py --load ./AAEt/ckpt/aae_0000.mdl --pose ./datasets/AAE_pose/０００/ --name data_base`
 
 ### 引数のパラメータ
+--name ： 出力結果のディレクトリ  
+--batchsz ： バッチサイズ  
+--z_dim ： 潜在変数の次元数  
 --name ： データベースの保管場所
 --load ： 学習済みAAEの重み
 --pose ： データベースとなるデータのディレクトリ
