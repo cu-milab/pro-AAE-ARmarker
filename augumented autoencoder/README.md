@@ -41,7 +41,7 @@ AAEの学習方法です．
 学習済みのAAEを用いた潜在変数の取得方法です．
 潜在変数は--nameで指定したフォルダに出力されます．
 
-`$　python3 suitei_encoder.py --load ./AAEt_700/ckpt/aae_0000000265.mdl --pose ./datasets/hyouka2/ --name  Z`
+`$　python3 pose_encoder_hyouka.py --load ./AAEt_700/ckpt/aae_0000000265.mdl --pose ./datasets/hyouka2/ --name  Z`
 
 ### 引数のパラメータ
 
