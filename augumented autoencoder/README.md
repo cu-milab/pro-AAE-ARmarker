@@ -27,6 +27,8 @@ AAEの学習方法です．
 各姿勢の潜在変数は--nameで指定したフォルダに出力されます．
 
 `$ python3 pose_encoder2.py --load ./AAEt/ckpt/aae_0000.mdl --pose ./datasets/AAE_pose/０００/ --name data_base`
+### メモ
+200行目は自動生成されないから自分で作成
 
 ### 引数のパラメータ
 --name ： 出力結果のディレクトリ 
